@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Marvel</title>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/scripts/client.min.js"></script>
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+<h1 class="text-center">Marvel Employee Payroll</h1>
+<div class="total-monthly-salary container text-center"></div>
+<div class="container">
+    <form id="employee-form">
+        <div class="form-group">
+            <label for="firstName">First Name:</label>
+            <input type="text" class="form-control" id="firstName" name="firstName"  placeholder="Enter first name">
+        </div>
+        <div class="form-group">
+            <label for="lastName">Last Name</label>
+            <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Enter last name">
+        </div>
+        <div class="form-group">
+            <label for="employeeId">Employee Id number:</label>
+            <input type="number" class="form-control" id="employeeId" name="employeeId"  placeholder="Enter employee Id #">
+        </div>
+        <div class="form-group">
+            <label for="employeeTitle">Super hero title:</label>
+            <input type="text" class="form-control" id="employeeTitle" name="employeeTitle"  placeholder="Enter employee title">
+        </div>
+        <div class="form-group">
+            <label for="employeeSalary">Employee salary:</label>
+            <input type="number" class="form-control" id="employeeSalary" name="employeeSalary"  placeholder="Enter employee salary">
+        </div>
+        <input type="submit" value="Add an Employee" class="btn btn-success" />
+    </form>
+</div>
+<div class="empContainer container"></div>
+
+</body>
+</html>
