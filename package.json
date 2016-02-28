@@ -5,19 +5,21 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"nodemon server/server.js"
+    "start": "nodemon server/server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^3.3.6",
     "express": "^4.13.4",
+    "jquery": "^2.2.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-copy": "^0.8.2",
     "grunt-contrib-jshint": "^1.0.0",
     "grunt-contrib-uglify": "^0.11.1",
-    "grunt-contrib-watch": "^0.6.1",
-    "jquery": "^2.2.1",
-    "path": "^0.12.7"
+    "grunt-contrib-watch": "^0.6.1"
   }
 }

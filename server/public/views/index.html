@@ -10,9 +10,13 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+
+<header class="logo">
 <h1 class="text-center">Marvel Employee Payroll</h1>
+</header>
 <div class="total-monthly-salary container text-center"></div>
 <div class="container">
+    <button class="btn btn-warning toggleForm">Show/hide form</button>
     <form id="employee-form">
         <div class="form-group">
             <label for="firstName">First Name:</label>
@@ -28,7 +32,7 @@
         </div>
         <div class="form-group">
             <label for="employeeTitle">Super hero title:</label>
-            <input type="text" class="form-control" id="employeeTitle" name="employeeTitle"  placeholder="Enter employee title">
+            <input type="text" class="form-control" id="employeeTitle" name="employeeTitle"  placeholder="Enter employee title" required>
         </div>
         <div class="form-group">
             <label for="employeeSalary">Employee salary:</label>
