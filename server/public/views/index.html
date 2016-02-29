@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Marvel</title>
-    <script src="vendor/jquery/jquery.min.js"></script>
+                                <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/scripts/client.min.js"></script>
-    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <h1 class="text-center  ">Marvel Employee Payroll</h1>
+          <h1 class="text-center  ">Marvel Employee Payroll</h1>
     <header class="logo container"></header>
-    <div class="total-monthly-salary container text-center"></div>
+                 <div class="total-monthly-salary container text-center"></div>
     <div class="container">
-        <button class="btn btn-warning toggleForm">Show/hide form</button>
-        <form id="employee-form">
+        <button class="btn btn-warning toggleForm" data-toggle="collapse" data-target="#employee-form">Show/hide form</button>
+        <form id="employee-form" class="collapse">
             <div class="form-group">
                 <label for="firstName">First Name:</label>
                 <input type="text" class="form-control" id="firstName" name="firstName"  placeholder="Enter first name">
